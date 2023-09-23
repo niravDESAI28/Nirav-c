@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int i;
+	float n,a=0,b=0.5,c;
+	clrscr();
+
+	printf("enter value");
+	scanf("%f",&n);
+
+	for(i=0 ; i<=n ; i++)
+	{
+	   c=a+b;
+	   printf("%.2f\n",c);
+	   a=b;
+	   b=c;
+
+	}
+	getch();
+}
