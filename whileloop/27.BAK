@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int i=1,j=1;
+	clrscr();
+
+	while (i<=10)
+	{
+		j=1;
+		if(i%2==0)
+		while(j<=5)
+		{
+		printf("%3d",i);
+		j++;
+		}
+		i++;
+		printf("\n");
+	}
+	getch();
+}
